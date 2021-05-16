@@ -1,3 +1,4 @@
+``` bash
 $ pyenv install 3.8.6
 $ pyenv virtualenv 3.8 meu_ambiente
 $ pyenv activate my_sort
@@ -5,9 +6,10 @@ $ pip install poetry==1.0.2
 $ poetry new ambiente
 $ poetry add
 $ pyenv virtualenv-delete <name>
-
+```
 
 # Intalação zsh e pyenv
+``` bash
 
 $ sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
@@ -22,3 +24,4 @@ $ sudo apt install zsh
 $ chsh -s /usr/bin/zsh
 $ sudo chsh -s $(which zsh)
 $ echo $SHELL
+```
