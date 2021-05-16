@@ -1,0 +1,10 @@
+{
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "python.linting.flake8Args": [
+    "--max-line-length=88"
+  ],
+  "python.pythonPath": "/home/carol/.pyenv/versions/3.8.6/envs/my_sort/bin/python"
+}
